@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "font1";
+    src: url();
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{height: 100%;}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.connexion {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.connexion a {
+    color: purple;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.connexion a:hover {
+    background-color: #A87530;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.links a{
+    color: purple;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.links a:hover{
+    background-color: #A87530;
+}

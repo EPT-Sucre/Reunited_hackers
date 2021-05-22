@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Penmanship Print';
+    src: url('PenmanshipPrint.woff2') format('woff2'),
+        url('PenmanshipPrint.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
